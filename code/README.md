@@ -1,7 +1,7 @@
 # **Hiring Bias Analysis using Machine Learning (PS2)**
 
 ## **Project Overview**
-This repository contains a Python script, `ps2.py`, that builds upon **Problem Set 1 (PS1)** by introducing **machine learning fairness auditing, interpretability, and predictive modeling**. The primary focus is on analyzing **hiring discrimination** using machine learning models.
+This repository contains a Python script, `code.py`, that builds upon **Problem Set 1 (PS1)** by introducing **machine learning fairness auditing, interpretability, and predictive modeling**. The primary focus is on analyzing **hiring discrimination** using machine learning models.
 
 ### **Key Features in PS2**
 - **Hyperparameter Tuning**: Using `GridSearchCV` for **Logistic Regression, Decision Trees, Random Forest, and XGBoost**.
@@ -13,7 +13,7 @@ This repository contains a Python script, `ps2.py`, that builds upon **Problem S
 ---
 
 ## **1. `code/` Folder**
-- **`ps2.py`**  
+- **`code.py`**  
   - **Loads and preprocesses data** from an Excel file.  
   - **Trains multiple models** with hyperparameter tuning (Logistic Regression, Decision Tree, Random Forest, XGBoost).  
   - **Evaluates fairness** using Demographic Parity, Disparate Impact Ratio, Equalized Odds.  
